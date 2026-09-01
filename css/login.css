@@ -1,0 +1,308 @@
+/* =========================================
+   LOGIN STYLES - Dùng cho trang đăng nhập thí sinh
+   thisinh/login.php
+   ========================================= */
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ea66a4 0%, #4ba24f 100%);
+  padding: 20px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  border: none;
+  background: white;
+}
+
+.login-card .card-header {
+  background: linear-gradient(135deg, #ea7a66 0%, #a78e23 100%);
+  color: white;
+  border-radius: 15px 15px 0 0;
+  padding: 30px;
+  text-align: center;
+  border: none;
+}
+
+.login-card .card-header i {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.login-card .card-header h3 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.login-card .card-header p {
+  margin: 10px 0 0 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.login-card .card-body {
+  padding: 40px;
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.form-group label i {
+  margin-right: 5px;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px 15px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.form-control::placeholder {
+  color: #999;
+}
+
+.form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+  outline: none;
+}
+
+.form-control:disabled {
+  background-color: #f9fafb;
+  cursor: not-allowed;
+}
+
+/* Login Button */
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #667eea 0%, #16b1c5 100%);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-login:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+  color: white;
+}
+
+.btn-login:active {
+  transform: translateY(0);
+}
+
+.btn-login:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-login i {
+  font-size: 1.1rem;
+}
+
+/* Form Check (Checkbox) */
+.form-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-check-input {
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+  accent-color: #667eea;
+}
+
+.form-check-label {
+  cursor: pointer;
+  margin: 0;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Info Box */
+.login-info {
+  background: #f8f9fa;
+  border-left: 4px solid #667eea;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.login-info i {
+  color: #667eea;
+  margin-right: 10px;
+}
+
+.login-info strong {
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-info br {
+  margin: 5px 0;
+}
+
+/* Back Link */
+.back-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-link a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+  color: #764ba2;
+}
+
+/* Input Group (Optional - for password toggle) */
+.input-group-text {
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.input-group.password-group {
+  position: relative;
+}
+
+.toggle-password {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #667eea;
+  padding: 8px 12px;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.toggle-password:hover {
+  color: #764ba2;
+}
+
+/* Error Messages */
+.error-message {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 4px solid #f5c6cb;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.error-message i {
+  font-size: 1.2rem;
+}
+
+/* Success Messages */
+.success-message {
+  background: #d4edda;
+  color: #155724;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 4px solid #c3e6cb;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.success-message i {
+  font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .login-container {
+    padding: 15px;
+  }
+
+  .login-card {
+    max-width: 100%;
+  }
+
+  .login-card .card-header {
+    padding: 20px;
+  }
+
+  .login-card .card-body {
+    padding: 25px;
+  }
+
+  .login-card .card-header i {
+    font-size: 2rem;
+  }
+
+  .login-card .card-header h3 {
+    font-size: 1.3rem;
+  }
+
+  .btn-login {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+}
+
+/* Animation */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-card {
+  animation: slideIn 0.3s ease-out;
+}

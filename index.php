@@ -72,7 +72,7 @@
                                 Thông tin cá nhân được bảo mật tuyệt đối
                             </small>
                         </p>
-                        <a href="student/login.php" class="btn btn-access btn-student">
+                        <a href="thisinh/login.php" class="btn btn-access btn-student">
                             <i class="fas fa-arrow-right"></i> Vào khu vực thí sinh
                         </a>
                     </div>
@@ -101,7 +101,7 @@
                                 Yêu cầu xác thực tài khoản
                             </small>
                         </p>
-                        <a href="admin/login.php" class="btn btn-access btn-admin">
+                        <a href="quanly/login.php" class="btn btn-access btn-admin">
                             <i class="fas fa-arrow-right"></i> Vào khu vực quản lý
                         </a>
                     </div>
@@ -164,8 +164,8 @@
                 <div class="col-md-3">
                     <h6><i class="fas fa-link"></i> Liên Kết</h6>
                     <ul style="list-style: none; padding: 0;">
-                        <li><a href="student/login.php">Khu vực thí sinh</a></li>
-                        <li><a href="admin/login.php">Khu vực quản lý</a></li>
+                        <li><a href="thisinh/login.php">Khu vực thí sinh</a></li>
+                        <li><a href="quanly/login.php">Khu vực quản lý</a></li>
                         <li><a href="#info">Hướng dẫn</a></li>
                     </ul>
                 </div>
