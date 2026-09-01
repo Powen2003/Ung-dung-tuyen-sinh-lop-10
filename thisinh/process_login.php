@@ -52,4 +52,3 @@ if ($sbd === $valid_sbd && $code === $valid_code) {
     exit;
 }
 ?>
-test branch
