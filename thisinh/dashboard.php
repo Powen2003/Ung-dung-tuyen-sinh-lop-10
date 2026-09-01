@@ -49,6 +49,12 @@
                             Tài Liệu
                         </a>
                     </li>
+                    <li>
+                        <a href="#documents" class="nav-link" data-tab="documents">
+                            <i class="fa-solid fa-question"></i>
+                            Hỗ Trợ
+                        </a>
+                    </li>
                 </ul>
 
                 <a href="logout.php" class="logout-btn">
@@ -76,7 +82,8 @@
 
                         <div class="info-box">
                             <i class="fas fa-info-circle"></i>
-                            Vui lòng cập nhật thông tin chính xác. Thông tin này được sử dụng cho hồ sơ dự tuyển của bạn.
+                            Vui lòng cập nhật thông tin chính xác. Thông tin này được sử dụng cho hồ sơ dự tuyển của
+                            bạn.
                         </div>
 
                         <div class="success-message" id="personalSuccessMsg">
@@ -87,8 +94,8 @@
                             <div class="form-row">
                                 <div class="form-group">
                                     <label for="fullName">Họ và Tên <span style="color: red;">*</span></label>
-                                    <input type="text" class="form-control" id="fullName" name="fullName" 
-                                           placeholder="Nhập họ và tên đầy đủ" required>
+                                    <input type="text" class="form-control" id="fullName" name="fullName"
+                                        placeholder="Nhập họ và tên đầy đủ" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="dob">Ngày Sinh <span style="color: red;">*</span></label>
@@ -108,27 +115,27 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="idNumber">Số CMND/CCCD <span style="color: red;">*</span></label>
-                                    <input type="text" class="form-control" id="idNumber" name="idNumber" 
-                                           placeholder="Nhập số CMND/CCCD" required minlength="9" maxlength="12">
+                                    <input type="text" class="form-control" id="idNumber" name="idNumber"
+                                        placeholder="Nhập số CMND/CCCD" required minlength="9" maxlength="12">
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="email">Email <span style="color: red;">*</span></label>
-                                <input type="email" class="form-control" id="email" name="email" 
-                                       placeholder="Nhập địa chỉ email" required>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Nhập địa chỉ email" required>
                             </div>
 
                             <div class="form-group">
                                 <label for="phone">Điện Thoại <span style="color: red;">*</span></label>
-                                <input type="tel" class="form-control" id="phone" name="phone" 
-                                       placeholder="Nhập số điện thoại" required pattern="[0-9]{10}">
+                                <input type="tel" class="form-control" id="phone" name="phone"
+                                    placeholder="Nhập số điện thoại" required pattern="[0-9]{10}">
                             </div>
 
                             <div class="form-group">
                                 <label for="address">Địa Chỉ Thường Trú <span style="color: red;">*</span></label>
-                                <input type="text" class="form-control" id="address" name="address" 
-                                       placeholder="Nhập địa chỉ thường trú" required>
+                                <input type="text" class="form-control" id="address" name="address"
+                                    placeholder="Nhập địa chỉ thường trú" required>
                             </div>
 
                             <div class="form-row">
@@ -144,8 +151,8 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="school">Trường Cấp 2 <span style="color: red;">*</span></label>
-                                    <input type="text" class="form-control" id="school" name="school" 
-                                           placeholder="Nhập tên trường cấp 2" required>
+                                    <input type="text" class="form-control" id="school" name="school"
+                                        placeholder="Nhập tên trường cấp 2" required>
                                 </div>
                             </div>
 
@@ -171,7 +178,8 @@
 
                         <div class="info-box">
                             <i class="fas fa-lightbulb"></i>
-                            Hãy lựa chọn các nguyện vọng theo thứ tự ưu tiên của bạn. Bạn có thể đăng ký tối đa 5 nguyện vọng.
+                            Hãy lựa chọn các nguyện vọng theo thứ tự ưu tiên của bạn. Bạn có thể đăng ký tối đa 5 nguyện
+                            vọng.
                         </div>
 
                         <div class="success-message" id="preferencesSuccessMsg">
@@ -185,7 +193,8 @@
                                 </label>
                                 <select class="form-select" id="schoolSelect" name="schoolSelect" required>
                                     <option value="">-- Chọn trường học --</option>
-                                    <option value="1" data-code="TH001">Trường THPT Chuyên Lê Hồng Phong - Mã: TH001</option>
+                                    <option value="1" data-code="TH001">Trường THPT Chuyên Lê Hồng Phong - Mã: TH001
+                                    </option>
                                     <option value="2" data-code="TH002">Trường THPT Phan Bội Châu - Mã: TH002</option>
                                     <option value="3" data-code="TH003">Trường THPT Nguyễn Huệ - Mã: TH003</option>
                                     <option value="4" data-code="TH004">Trường THPT Lê Qúy Đôn - Mã: TH004</option>
@@ -223,11 +232,13 @@
 
                         <div class="info-box">
                             <i class="fas fa-calendar-check"></i>
-                            Điểm thi sẽ được công bố vào ngày <strong>15/06/2024</strong>. Vui lòng quay lại sau ngày này để xem điểm.
+                            Điểm thi sẽ được công bố vào ngày <strong>15/06/2024</strong>. Vui lòng quay lại sau ngày
+                            này để xem điểm.
                         </div>
 
                         <div style="text-align: center; padding: 40px;">
-                            <i class="fas fa-hourglass-half" style="font-size: 3rem; color: #ddd; margin-bottom: 15px; display: block;"></i>
+                            <i class="fas fa-hourglass-half"
+                                style="font-size: 3rem; color: #ddd; margin-bottom: 15px; display: block;"></i>
                             <p style="color: #999;">Điểm thi chưa được công bố</p>
                         </div>
                     </div>
@@ -244,24 +255,30 @@
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease;"
-                                     onmouseover="this.style.background='#e9ecef'" onmouseout="this.style.background='#f8f9fa'">
-                                    <i class="fas fa-file-pdf" style="font-size: 2.5rem; color: #ff6b6b; margin-bottom: 10px; display: block;"></i>
+                                    onmouseover="this.style.background='#e9ecef'"
+                                    onmouseout="this.style.background='#f8f9fa'">
+                                    <i class="fas fa-file-pdf"
+                                        style="font-size: 2.5rem; color: #ff6b6b; margin-bottom: 10px; display: block;"></i>
                                     <h6>Quy Chế Tuyển Sinh</h6>
                                     <small class="text-muted">PDF - 2.5 MB</small>
                                     <br><br>
-                                    <a href="#" class="btn btn-sm btn-primary-custom" onclick="alert('Tải tệp'); return false;">
+                                    <a href="#" class="btn btn-sm btn-primary-custom"
+                                        onclick="alert('Tải tệp'); return false;">
                                         <i class="fas fa-download"></i> Tải
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease;"
-                                     onmouseover="this.style.background='#e9ecef'" onmouseout="this.style.background='#f8f9fa'">
-                                    <i class="fas fa-file-pdf" style="font-size: 2.5rem; color: #ff6b6b; margin-bottom: 10px; display: block;"></i>
+                                    onmouseover="this.style.background='#e9ecef'"
+                                    onmouseout="this.style.background='#f8f9fa'">
+                                    <i class="fas fa-file-pdf"
+                                        style="font-size: 2.5rem; color: #ff6b6b; margin-bottom: 10px; display: block;"></i>
                                     <h6>Hướng Dẫn Đăng Ký Nguyện Vọng</h6>
                                     <small class="text-muted">PDF - 1.8 MB</small>
                                     <br><br>
-                                    <a href="#" class="btn btn-sm btn-primary-custom" onclick="alert('Tải tệp'); return false;">
+                                    <a href="#" class="btn btn-sm btn-primary-custom"
+                                        onclick="alert('Tải tệp'); return false;">
                                         <i class="fas fa-download"></i> Tải
                                     </a>
                                 </div>
@@ -275,86 +292,86 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Tab Navigation
-        document.querySelectorAll('.nav-link').forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                // Remove active class from all tabs and contents
-                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
-                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-                
-                // Add active class to clicked link and corresponding content
-                this.classList.add('active');
-                const tabId = this.getAttribute('data-tab');
-                document.getElementById(tabId).classList.add('active');
-            });
-        });
-
-        // Personal Info Form Submission
-        document.getElementById('personalInfoForm').addEventListener('submit', function(e) {
+    // Tab Navigation
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', function(e) {
             e.preventDefault();
-            // Simulate form submission
-            const fullName = document.getElementById('fullName').value;
-            
-            // Show success message
-            const successMsg = document.getElementById('personalSuccessMsg');
-            successMsg.style.display = 'block';
-            
-            setTimeout(() => {
-                successMsg.style.display = 'none';
-            }, 3000);
-            
-            console.log('Personal info saved:', {
-                fullName: fullName,
-                dob: document.getElementById('dob').value,
-                gender: document.getElementById('gender').value,
-                idNumber: document.getElementById('idNumber').value,
-                email: document.getElementById('email').value,
-                phone: document.getElementById('phone').value,
-                address: document.getElementById('address').value,
-                province: document.getElementById('province').value,
-                school: document.getElementById('school').value
-            });
+
+            // Remove active class from all tabs and contents
+            document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+
+            // Add active class to clicked link and corresponding content
+            this.classList.add('active');
+            const tabId = this.getAttribute('data-tab');
+            document.getElementById(tabId).classList.add('active');
         });
+    });
 
-        // Preferences Management
-        let preferenceCount = 0;
-        const preferences = [];
+    // Personal Info Form Submission
+    document.getElementById('personalInfoForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        // Simulate form submission
+        const fullName = document.getElementById('fullName').value;
 
-        document.getElementById('addPreferenceBtn').addEventListener('click', function() {
-            const schoolSelect = document.getElementById('schoolSelect');
-            const selectedOption = schoolSelect.options[schoolSelect.selectedIndex];
-            
-            if (!selectedOption.value) {
-                alert('Vui lòng chọn một trường học');
-                return;
-            }
+        // Show success message
+        const successMsg = document.getElementById('personalSuccessMsg');
+        successMsg.style.display = 'block';
 
-            if (preferences.length >= 5) {
-                alert('Bạn chỉ có thể thêm tối đa 5 nguyện vọng');
-                return;
-            }
+        setTimeout(() => {
+            successMsg.style.display = 'none';
+        }, 3000);
 
-            preferenceCount++;
-            const preferenceId = 'pref-' + Date.now();
-            const schoolCode = selectedOption.getAttribute('data-code');
-            const schoolName = selectedOption.text.split(' - ')[0];
+        console.log('Personal info saved:', {
+            fullName: fullName,
+            dob: document.getElementById('dob').value,
+            gender: document.getElementById('gender').value,
+            idNumber: document.getElementById('idNumber').value,
+            email: document.getElementById('email').value,
+            phone: document.getElementById('phone').value,
+            address: document.getElementById('address').value,
+            province: document.getElementById('province').value,
+            school: document.getElementById('school').value
+        });
+    });
 
-            const preference = {
-                id: preferenceId,
-                rank: preferenceCount,
-                name: schoolName,
-                code: schoolCode
-            };
-            preferences.push(preference);
+    // Preferences Management
+    let preferenceCount = 0;
+    const preferences = [];
 
-            // Add to DOM
-            const container = document.getElementById('preferencesContainer');
-            const preferenceDiv = document.createElement('div');
-            preferenceDiv.className = 'preference-item';
-            preferenceDiv.id = preferenceId;
-            preferenceDiv.innerHTML = `
+    document.getElementById('addPreferenceBtn').addEventListener('click', function() {
+        const schoolSelect = document.getElementById('schoolSelect');
+        const selectedOption = schoolSelect.options[schoolSelect.selectedIndex];
+
+        if (!selectedOption.value) {
+            alert('Vui lòng chọn một trường học');
+            return;
+        }
+
+        if (preferences.length >= 5) {
+            alert('Bạn chỉ có thể thêm tối đa 5 nguyện vọng');
+            return;
+        }
+
+        preferenceCount++;
+        const preferenceId = 'pref-' + Date.now();
+        const schoolCode = selectedOption.getAttribute('data-code');
+        const schoolName = selectedOption.text.split(' - ')[0];
+
+        const preference = {
+            id: preferenceId,
+            rank: preferenceCount,
+            name: schoolName,
+            code: schoolCode
+        };
+        preferences.push(preference);
+
+        // Add to DOM
+        const container = document.getElementById('preferencesContainer');
+        const preferenceDiv = document.createElement('div');
+        preferenceDiv.className = 'preference-item';
+        preferenceDiv.id = preferenceId;
+        preferenceDiv.innerHTML = `
                 <span class="preference-rank">${preferenceCount}</span>
                 <div class="preference-info">
                     <div class="preference-school">${schoolName}</div>
@@ -364,71 +381,71 @@
                     <i class="fas fa-trash"></i> Xóa
                 </button>
             `;
-            container.appendChild(preferenceDiv);
+        container.appendChild(preferenceDiv);
 
-            // Reset select
-            schoolSelect.value = '';
+        // Reset select
+        schoolSelect.value = '';
+    });
+
+    window.removePreference = function(preferenceId) {
+        const element = document.getElementById(preferenceId);
+        if (element) {
+            element.remove();
+            preferences.splice(preferences.findIndex(p => p.id === preferenceId), 1);
+            // Reorder ranks
+            reorderPreferences();
+        }
+    };
+
+    function reorderPreferences() {
+        const container = document.getElementById('preferencesContainer');
+        const items = container.querySelectorAll('.preference-item');
+        items.forEach((item, index) => {
+            const rank = item.querySelector('.preference-rank');
+            rank.textContent = index + 1;
+            preferences[index].rank = index + 1;
         });
+    }
 
-        window.removePreference = function(preferenceId) {
-            const element = document.getElementById(preferenceId);
-            if (element) {
-                element.remove();
-                preferences.splice(preferences.findIndex(p => p.id === preferenceId), 1);
-                // Reorder ranks
-                reorderPreferences();
-            }
-        };
+    document.getElementById('clearPreferencesBtn').addEventListener('click', function() {
+        if (confirm('Bạn chắc chắn muốn xóa tất cả nguyện vọng?')) {
+            document.getElementById('preferencesContainer').innerHTML = '';
+            preferences.length = 0;
+            preferenceCount = 0;
+        }
+    });
 
-        function reorderPreferences() {
-            const container = document.getElementById('preferencesContainer');
-            const items = container.querySelectorAll('.preference-item');
-            items.forEach((item, index) => {
-                const rank = item.querySelector('.preference-rank');
-                rank.textContent = index + 1;
-                preferences[index].rank = index + 1;
-            });
+    // Preferences Form Submission
+    document.getElementById('preferencesForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        if (preferences.length === 0) {
+            alert('Vui lòng thêm ít nhất một nguyện vọng');
+            return;
         }
 
-        document.getElementById('clearPreferencesBtn').addEventListener('click', function() {
-            if (confirm('Bạn chắc chắn muốn xóa tất cả nguyện vọng?')) {
-                document.getElementById('preferencesContainer').innerHTML = '';
-                preferences.length = 0;
-                preferenceCount = 0;
-            }
-        });
+        const successMsg = document.getElementById('preferencesSuccessMsg');
+        successMsg.style.display = 'block';
 
-        // Preferences Form Submission
-        document.getElementById('preferencesForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            if (preferences.length === 0) {
-                alert('Vui lòng thêm ít nhất một nguyện vọng');
-                return;
-            }
+        setTimeout(() => {
+            successMsg.style.display = 'none';
+        }, 3000);
 
-            const successMsg = document.getElementById('preferencesSuccessMsg');
-            successMsg.style.display = 'block';
-            
-            setTimeout(() => {
-                successMsg.style.display = 'none';
-            }, 3000);
+        console.log('Preferences saved:', preferences);
+    });
 
-            console.log('Preferences saved:', preferences);
-        });
-
-        // Load sample data (remove in production)
-        window.addEventListener('load', function() {
-            document.getElementById('fullName').value = 'Nguyễn Văn A';
-            document.getElementById('dob').value = '2008-05-15';
-            document.getElementById('gender').value = 'male';
-            document.getElementById('idNumber').value = '123456789';
-            document.getElementById('email').value = 'nguyenvana@gmail.com';
-            document.getElementById('phone').value = '0912345678';
-            document.getElementById('address').value = '123 Đường Trần Hưng Đạo';
-            document.getElementById('province').value = 'ha_noi';
-            document.getElementById('school').value = 'Trường THCS Hoàng Mai';
-        });
+    // Load sample data (remove in production)
+    window.addEventListener('load', function() {
+        document.getElementById('fullName').value = 'Nguyễn Văn A';
+        document.getElementById('dob').value = '2008-05-15';
+        document.getElementById('gender').value = 'male';
+        document.getElementById('idNumber').value = '123456789';
+        document.getElementById('email').value = 'nguyenvana@gmail.com';
+        document.getElementById('phone').value = '0912345678';
+        document.getElementById('address').value = '123 Đường Trần Hưng Đạo';
+        document.getElementById('province').value = 'ha_noi';
+        document.getElementById('school').value = 'Trường THCS Hoàng Mai';
+    });
     </script>
 </body>
 
