@@ -152,7 +152,7 @@
             </div>
         </div>
     </section>
-    mmm
+
     <!-- Footer -->
     <footer id="contact">
         <div class="container-lg">
